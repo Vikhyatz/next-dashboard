@@ -9,6 +9,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.className} antialiased`}>{children}</body>
+      {/* this is a commit */}
     </html>
   );
 }
